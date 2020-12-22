@@ -1,5 +1,7 @@
-header {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
@@ -7,27 +9,68 @@ header {
   margin: 0 auto;
 }
 
-.menu {
+header {
+  text-align: center;
+}
+
+nav.menu {
   width: 100%;
 }
 
-.menu ul {
+nav.menu ul {
   list-style-type: none;
   text-align: center;
 }
 
-.menu ul li {
+nav.menu ul li {
   display: inline-block;
   padding: 10px 5px;
 }
 
-.menu ul li a {
+nav.menu ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
-.menu ul li.active {
+nav.menu ul li.active {
   background-color: lightblue;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+footer .molisana-info img {
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+footer .molisana-info ul {
+  list-style-type: none;
+}
+
+footer .menu h2 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+footer .menu ul {
+  list-style-type: none;
+}
+
+footer .menu ul li {
+  padding: 5px 0;
+}
+
+footer .menu ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .menu ul li a:hover {
+  text-decoration: underline;
 }
 

@@ -3,27 +3,15 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
-        <title>Molisana</title>
+        <title>@yield('page-title')</title>
     </head>
     <body>
         <div class="container">
-            <header>
-                <img src="{{asset('images/marchio-sito-test.png')}}" alt="">
-            </header>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="{{url('/')}}">Home</a>
-                    </li>
-                    <li class="active">
-                        <a href="{{url('/prodotti')}}">Prodotti</a>
-                    </li>
-                    <li>
-                        <a href="#">News</a>
-                    </li>
-                </ul>
-            </div>
-            @yield('content')
+            @include('partials.header')
+            <main>
+                @yield('content')
+            </main>
+            @include('partials.footer')
         </div>
 
         <script src="{{asset('js/app.js')}}" charset="utf-8"></script>

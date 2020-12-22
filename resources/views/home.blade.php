@@ -2,8 +2,7 @@
 
 @section('content')
     <h1>Home</h1>
-    <main>
-        
-    </main>
 
 @endsection
+
+@section('page-title', 'Home - Molisana')
