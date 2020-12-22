@@ -1,5 +1,33 @@
-body {
-  color: white;
-  background-color: black;
+header {
+  text-align: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.menu ul li.active {
+  background-color: lightblue;
 }
 
