@@ -10,6 +10,7 @@
             @include('partials.header')
             <main>
                 @yield('content')
+                @yield('cards')
             </main>
             @include('partials.footer')
         </div>
