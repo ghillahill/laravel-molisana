@@ -14,6 +14,9 @@
             @include('partials.footer')
         </div>
 
+        <img src="{{asset('images/footer-montagne-bottom.jpg')}}" alt="">
+
+        @yield('scripts')
         <script src="{{asset('js/app.js')}}" charset="utf-8"></script>
     </body>
 </html>
