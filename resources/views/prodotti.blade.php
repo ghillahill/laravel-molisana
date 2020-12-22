@@ -33,4 +33,9 @@
     </div>
 @endsection
 
+<!--Predisposto un yield per aggiungere script per carosello-->
+@section('scripts')
+
+@endsection
+
 @section('page-title', 'Our Products - Molisana')

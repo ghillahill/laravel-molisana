@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1360px;
   margin: 0 auto;
 }
 
@@ -20,42 +20,38 @@ header {
 nav.menu {
   width: 100%;
 }
-
 nav.menu ul {
   list-style-type: none;
   text-align: center;
 }
-
 nav.menu ul li {
   display: inline-block;
   padding: 10px 5px;
 }
-
 nav.menu ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
-
 nav.menu ul li.active {
   background-color: lightblue;
 }
 
+main {
+  background-image: url("/images/fondo-pag-speciali.jpg");
+}
 main h2 {
   padding: 20px 0;
 }
-
 main .cards-box {
   display: flex;
   flex-wrap: wrap;
 }
-
 main .cards-box .card {
   padding: 5px;
   width: 30%;
   cursor: pointer;
 }
-
 main .cards-box .card img {
   max-width: 100%;
 }
@@ -65,35 +61,27 @@ footer {
   justify-content: space-between;
   padding: 50px 0;
 }
-
 footer .molisana-info img {
   width: 50%;
   padding-bottom: 20px;
 }
-
 footer .molisana-info ul {
   list-style-type: none;
 }
-
 footer .menu h2 {
   text-transform: uppercase;
   padding-bottom: 20px;
 }
-
 footer .menu ul {
   list-style-type: none;
 }
-
 footer .menu ul li {
   padding: 5px 0;
 }
-
 footer .menu ul li a {
   text-decoration: none;
   color: black;
 }
-
 footer .menu ul li a:hover {
   text-decoration: underline;
 }
-
