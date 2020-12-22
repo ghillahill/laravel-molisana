@@ -41,6 +41,21 @@ nav.menu ul li.active {
   background-color: lightblue;
 }
 
+main .cards-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .cards-box .card {
+  padding: 5px;
+  width: 30%;
+  cursor: pointer;
+}
+
+main .cards-box .card img {
+  max-width: 100%;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
