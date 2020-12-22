@@ -41,6 +41,10 @@ nav.menu ul li.active {
   background-color: lightblue;
 }
 
+main h2 {
+  padding: 20px 0;
+}
+
 main .cards-box {
   display: flex;
   flex-wrap: wrap;
